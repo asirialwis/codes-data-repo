@@ -13,10 +13,6 @@ def partiotion(A,p,r):
     A[i + 1],A[r] = A[r],A[i + 1]
     return i + 1        
 
-#p = 0
-#r = len(A) - 1
-#partiotion(A,p,r)
-#print(A)
 
 def quickSort(A,p,r):
     if p < r:
