@@ -18,7 +18,7 @@ def merge(A, p, q, r):
     R[n2] = float('inf')
     i = 0
     j = 0
-    for k in range(p, r + 1):
+    for k in range(p, r +1):
         if L[i] <= R[j]:
             A[k] = L[i]
             i = i + 1
