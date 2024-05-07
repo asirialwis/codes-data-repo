@@ -12,7 +12,7 @@ while(True):
         break
     elif n <= -1:
         print("Enter positive numbers only")
-          
+        continue
     else:
         result = sum(n)
         print(result)
